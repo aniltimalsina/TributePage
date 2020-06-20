@@ -1,0 +1,30 @@
+#image {
+    float: top;
+    width: 50%;
+    border-radius: 50%;
+    margin-left: 19em;
+    opacity: 0.8;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: justify;
+    padding: 10px;
+    margin: 30px 10px; 
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    background-color: rgba(45, 45, 45, 0.5);
+    
+}
+
+#img-caption {
+    text-align: center;
+    font-family: monospace;
+}
+
+#tribute-link {
+    text-decoration: none;
+}
