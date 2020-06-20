@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tribute Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-    <img src="./image/richard1.jpg" alt="richard P. Feynmann">
-    </div>
+    <main id="main">
+    <figure id="img-div">
+    <img  id="image" src="./image/richard1.jpg" alt="richard P. Feynmann">
+    <figcaption id="img-caption">
+        A picture of Richard Feynman
+    </figcaption>
+</figure>
 
-    <h1>Richard P. Feynman</h1>
-    <article>
+    <h1 id="title">Richard P. Feynman</h1>
+    <article id="tribute-info">
     <p>Richard P. Feynman was born in New York City on the 11th May 1918. 
         He studied at the Massachusetts Institute of Technology where he obtained his B.Sc. in 1939 and at Princeton University where he obtained his Ph.D. in 1942. 
         He was Research Assistant at Princeton (1940-1941), Professor of Theoretical Physics at Cornell University (1945-1950), Visiting Professor and thereafter appointed Professor of Theoretical Physics at the California Institute of Technology (1950-1959).
@@ -23,8 +28,9 @@
         
         <p>Richard Feynman is married to Gweneth Howarth, they have a son, Carl Richard (born 22nd April 1961), and a daughter Michelle Catherine (born 13th August 1968).</p>
 
-    </article>
+    <p>For more information <a id="tribute-link" href="https://en.wikipedia.org/wiki/Richard_Feynman" target="_blank">visit here.</a></p>
 
-    <p>For more information <a href="https://en.wikipedia.org/wiki/Richard_Feynman" target="_blank">visit here.</a></p>
+    </article>
+    </main>
 </body>
 </html>
